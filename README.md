@@ -1,4 +1,4 @@
-# jAVASCRIPT-Projects 
+# 🎖️jAVASCRIPT-Projects 🤖
 
 <table>
   <tr>
@@ -7,7 +7,7 @@
   </tr>
   <tr>
     <td>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDigital Clock                                              
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDigital Clock 🕒                                             
     </td>
     <td>
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://suryaprakashkalyanam.github.io/jAVASCRIPT-Projects/Digital%20Clock/">Try Now</a>
