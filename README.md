@@ -10,7 +10,7 @@
       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDigital Clock 🕒                                             
     </td>
     <td>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://suryaprakashkalyanam.github.io/jAVASCRIPT-Projects/Digital%20Clock/">Try Now</a>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://suryaprakashkalyanam.github.io/jAVASCRIPT-Projects/Digital%20Clock/" target="_blank">Try Now</a>
     </td>
   </tr>
 </table>
