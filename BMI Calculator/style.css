@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400&family=Poppins:wght@300&family=Quicksand:wght@500;800&display=swap');
+
+
+body{
+    height: 100%;
+    background: white;
+}
+
+.main{
+    margin: 10vh 20vw;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.1em;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+}
+
+input {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.result
+{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
