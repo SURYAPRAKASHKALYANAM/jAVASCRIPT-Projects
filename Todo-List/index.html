@@ -11,14 +11,17 @@
     <div class="input-form">
         <h2>Todo List</h2>
         <form action="#">
-            <input type="text" name="todo" id="todo" placeholder="Enter your todo">
-            <button type="submit" class="btn" id="btn1" >Add</button>
+            <input type="text" name="todo" id="todo" placeholder="Enter your todo" required>
+            <button type="submit" class="btn" id="btn" >Add</button>
         </form>
     </div>
     <div class="list">
         <h2>Tasks</h2>
         <div class="add" id="add"></div>
-        <button type="submit" class="btn" id="btn2" >Clear all</button>
+        <ul class="task">
+            <li><p>add a task <img src="./remov.svg" alt="remove"></p></li>
+        </ul>
+        <button type="submit" class="btn1" id="btn1" >Clear all</button>
         </form>
     </div>
     <script src="./script.js"></script>

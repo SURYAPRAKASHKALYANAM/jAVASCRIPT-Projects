@@ -80,12 +80,38 @@
 
 }
 
-#btn2{
+.btn1 {
+    text-align: center;
+    width: 110px;
+    padding: 10px;
+    margin: 10px auto 0;
+    background: #000000;
+    color: #fff;
+    border-radius: 4px;
     display: none;
+    transition:all 0.3s;
 }
 
-#btn2:hover{
+.btn1:hover {
     background: #e93030;
     color: #ffffff;
     border: none;
+}
+
+.task li {
+    list-style: none;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 10px auto 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+/* .task p{} */
+.task img{
+    width: 18px;
+    cursor: pointer;
+    /* margin-left: 94%; */
+    /* display: ; */
 }

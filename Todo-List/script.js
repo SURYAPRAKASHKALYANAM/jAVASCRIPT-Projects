@@ -1,9 +1,9 @@
 
 
-addBtn = document.getElementById("btn1");
+addBtn = document.getElementById("btn");
 task = document.getElementById("todo");
 tasksection = document.getElementById("add");
-clearLocal = document.getElementById("btn2");
+clearLocal = document.getElementById("btn1");
 
 
 clearLocal.addEventListener("click", function () {
@@ -16,8 +16,13 @@ addBtn.addEventListener("click", updatelocalstorage)
 
 function updatelocalstorage() {
     event.preventDefault();
-    localStorage.setItem(localStorage.length, task.value);
-    task.value = ""
+    if (task.value === ""){
+        alert("No task Mentioned")
+    }
+    else {
+        localStorage.setItem(localStorage.length, task.value);
+        task.value = ""
+    }
     DipalyTasks();
 }
 
