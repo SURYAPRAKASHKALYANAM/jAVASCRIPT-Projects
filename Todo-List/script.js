@@ -2,13 +2,15 @@
 
 addBtn = document.getElementById("btn");
 task = document.getElementById("todo");
-tasksection = document.getElementById("add");
+tasksection = document.getElementById("task");
+tasksection.innerHTML="";
 clearLocal = document.getElementById("btn1");
 
 
 clearLocal.addEventListener("click", function () {
     localStorage.clear();
     clearLocal.style.display = "none";
+    tasksection.innerHTML = ""
 })
 
 
@@ -21,18 +23,30 @@ function updatelocalstorage() {
     }
     else {
         localStorage.setItem(localStorage.length, task.value);
-        task.value = ""
+        DipalyTasks();
+        task.value = "";
     }
-    DipalyTasks();
+    
+    
 }
-
+function setclick(id)
+{
+    document.getElementById(id).addEventListener("click",deleteTask(id));
+}
 function DipalyTasks() {
-    console.log("//hy")
-    for (let i = 0; i < localStorage.length; i++) {
-
+    tasksection.innerHTML="";
+    for(let i=0;i<localStorage.length;i++)
+    {
+        tasksection.innerHTML+=`<li><p>${localStorage[i]}<img src="./remov.svg" alt="remove" id=${i} onclick=setclick(${i})></p></li>`;
     }
     if (localStorage.length) clearLocal.style.display = "block";
 
+}
+
+function deleteTask(id) {
+    console.log(id)
+    localStorage.removeItem(id);
+    DipalyTasks();
 }
 
 DipalyTasks();
