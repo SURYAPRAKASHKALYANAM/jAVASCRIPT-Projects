@@ -19,16 +19,15 @@ addBtn.addEventListener("click", updatelocalstorage)
 
 function updatelocalstorage() {
     event.preventDefault();
-    if (task.value === ""){
+    if (task.value.trim() === ""){
         alert("No task Mentioned")
     }
     else {
-        localStorage.setItem(localStorage.length, task.value);
+        let key=(Math.random()*1000000).toFixed()
+        localStorage.setItem(key, task.value);
         DipalyTasks();
         task.value = "";
     }
-    
-    
 }
 function setclick(id)
 {
