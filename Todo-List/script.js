@@ -36,10 +36,12 @@ function setclick(id)
 }
 function DipalyTasks() {
     tasksection.innerHTML="";
+    let e=1;
     for(let key in localStorage){
+        e=0;
         if(key>=0)  tasksection.innerHTML+=`<li><p>${localStorage[key]}<img src="./remov.svg" alt="remove" id=${key} onclick=setclick(${key})></p></li>`;
     }
-    if (localStorage.length) clearLocal.style.display = "block";
+    if (e==0) clearLocal.style.display = "block";
     else clearLocal.style.display = "none";
 }
 
